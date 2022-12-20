@@ -16,9 +16,7 @@ body {
   background-color: var(--background-color);
 }
 
-h1 {
 
-}
 
 :root {
   --background-color: hsl(210, 46%, 95%);
@@ -42,6 +40,55 @@ h1 {
   grid-gap: 30px;
 }
 
+.verified {
+  color: var(--light-paragraph-header-color);
+  opacity: 50%;
+  font-size: 13px;
+}
+
+div.jeanette p.verified,
+div.kira p.verified {
+  color: var(--dark-paragraph-color);
+  opacity: 50%;
+  margin-left: 57px;
+
+}
+
+.testimonials {
+  color: var(--light-paragraph-header-color);
+  opacity: 70%;
+}
+
+div.jeanette p.testimonials,
+div.kira p.testimonials {
+  color: var(--dark-paragraph-color);
+  opacity: 50%;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 15px;
+  color: var(--light-paragraph-header-color);
+}
+
+div.jeanette h1,
+div.kira h1 {
+  color: var(--grey-card);
+  margin-left: 18px;
+}
+
+div.jeanette h2,
+div.kira h2 {
+  color: var(--grey-card);
+  font-size: 1.4rem;
+}
+
+.quotes {
+  position: absolute;
+  margin-left: 360px;
+  margin-top: -32px;
+}
+
 /* DANIEL CLIFFORD */
 .daniel {
   background-color: var(--violet-card);
@@ -49,6 +96,17 @@ h1 {
   grid-column: span 4;
   grid-row: span 3;
   padding: 2rem;
+}
+
+.daniel-picture {
+  border: 2px solid rgba(255, 255, 255, 0.500);
+  border-radius: 50%;
+  height: 35px;
+}
+
+div.daniel h2 {
+  position: relative;
+  z-index: 3;
 }
 
 /* JONATHaN WALTERS */
@@ -60,6 +118,12 @@ h1 {
   grid-column: span 2;
 }
 
+div.jonathan img {
+  /* border: 2px solid rgba(255, 255, 255, 0.500); */
+  border-radius: 50%;
+  height: 35px;
+}
+
 /* JEANETTE HARMON */
 .jeanette {
   padding: 2rem;
@@ -68,7 +132,13 @@ h1 {
   grid-column: span 2;
   grid-row: span 3;
   order: 3;
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.507);
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.144);
+}
+
+div.jeanette img {
+  /* border: 2px solid rgba(255, 255, 255, 0.500); */
+  border-radius: 50%;
+  height: 35px;
 }
 
 /* PATRICK ABRAMS */
@@ -81,6 +151,12 @@ h1 {
   order: 4;
 }
 
+div.patrick img {
+  border: 2px solid rgba(117, 65, 200, 0.87);
+  border-radius: 50%;
+  height: 35px;
+}
+
 .kira {
   background-color: var(--white-card);
   border-radius: 0.5rem;
@@ -88,7 +164,13 @@ h1 {
   grid-column: span 2;
   grid-row: span 6;
   /* order: 2; */
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.507);
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.144);
+}
+
+div.kira img {
+  /* border: 2px solid rgba(255, 255, 255, 0.500); */
+  border-radius: 50%;
+  height: 35px;
 }
 
 /* FOOTER */
