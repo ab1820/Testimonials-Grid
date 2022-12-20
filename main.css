@@ -13,6 +13,10 @@
 
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
+<<<<<<< Updated upstream
+  background-color: var(--background-color);
+=======
+>>>>>>> Stashed changes
 }
 
 :root {
@@ -23,6 +27,68 @@ body {
   --white-card: hsl(0, 0%, 100%);
   --light-paragraph-header-color: hsl(0, 0%, 81%);
   /* --light-header-color: hsl(0, 0%, 100%); */
+<<<<<<< Updated upstream
   --dark-paragraph-color:
     --dark-header-color:
+}
+
+/* MAIN CONTENT */
+.container {
+  margin: 170px 350px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-rows: repeat(6, 70px);
+  grid-gap: 30px;
+}
+
+/* DANIEL CLIFFORD */
+.daniel {
+  background-color: var(--violet-card);
+  border-radius: 0.5rem;
+  grid-column: span 4;
+  grid-row: span 3;
+  padding: 2rem;
+}
+
+/* JONATHaN WALTERS */
+.jonathan {
+  background-color: var(--grey-card);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  grid-row: span 3;
+  grid-column: span 2;
+}
+
+/* JEANETTE HARMON */
+.jeanette {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: var(--white-card);
+  grid-column: span 2;
+  grid-row: span 3;
+  order: 3;
+}
+
+/* PATRICK ABRAMS */
+.patrick {
+  background-color: var(--blue-card);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  grid-column: span 4;
+  grid-row: span 3;
+  order: 4;
+}
+
+.kira {
+  background-color: var(--white-card);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  grid-column: span 2;
+  grid-row: span 5;
+  order: 2;
+=======
+  --dark-paragraph-color: 
+  --dark-header-color: 
+>>>>>>> Stashed changes
 }
