@@ -13,10 +13,11 @@
 
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
-<<<<<<< Updated upstream
   background-color: var(--background-color);
-=======
->>>>>>> Stashed changes
+}
+
+h1 {
+
 }
 
 :root {
@@ -27,7 +28,6 @@ body {
   --white-card: hsl(0, 0%, 100%);
   --light-paragraph-header-color: hsl(0, 0%, 81%);
   /* --light-header-color: hsl(0, 0%, 100%); */
-<<<<<<< Updated upstream
   --dark-paragraph-color:
     --dark-header-color:
 }
@@ -68,6 +68,7 @@ body {
   grid-column: span 2;
   grid-row: span 3;
   order: 3;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.507);
 }
 
 /* PATRICK ABRAMS */
@@ -85,10 +86,14 @@ body {
   border-radius: 0.5rem;
   padding: 2rem;
   grid-column: span 2;
-  grid-row: span 5;
-  order: 2;
-=======
-  --dark-paragraph-color: 
-  --dark-header-color: 
->>>>>>> Stashed changes
+  grid-row: span 6;
+  /* order: 2; */
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.507);
+}
+
+/* FOOTER */
+.attribution {
+  margin: 0 auto;
+  margin-top: -50px;
+  text-align: center;
 }
