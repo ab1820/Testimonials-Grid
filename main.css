@@ -60,14 +60,12 @@ div.kira p.verified {
 .testimonials {
   color: var(--light-paragraph-header-color);
   opacity: 70%;
-  margin-top: 15px;
 }
 
 div.jeanette p.testimonials,
 div.kira p.testimonials {
   color: var(--dark-paragraph-color);
   opacity: 50%;
-  margin-top: 27px;
 }
 
 h1 {
@@ -94,7 +92,7 @@ div.kira h2 {
   color: var(--grey-card);
   /* font-size: 1.4rem; */
   margin-top: 20px;
-  margin-right: 5px;
+  margin-right: 7px;
 }
 
 .quotes {
@@ -138,20 +136,26 @@ div.daniel p.testimonials {
 .jonathan {
   background-color: var(--grey-card);
   border-radius: 0.5rem;
-  padding: 1.5rem;
+  padding: 2rem;
   grid-row: span 3;
   grid-column: span 2;
 }
 
 div.jonathan img {
-  /* border: 2px solid rgba(255, 255, 255, 0.500); */
+  border: 2px solid rgba(255, 255, 255, 0.100);
   border-radius: 50%;
   height: 35px;
 }
 
+div.jonathan p.testimonials {
+  margin-top: 15px;
+  font-size: 0.89rem;
+  line-height: 1.3;
+}
+
 /* JEANETTE HARMON */
 .jeanette {
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 0.5rem;
   background-color: var(--white-card);
   grid-column: span 2;
@@ -161,16 +165,22 @@ div.jonathan img {
 }
 
 div.jeanette img {
-  /* border: 2px solid rgba(255, 255, 255, 0.500); */
+  border: 2px solid rgba(255, 255, 255, 0.500);
   border-radius: 50%;
   height: 35px;
+}
+
+div.jeanette p.testimonials {
+  margin-top: 20px;
+  font-size: 0.89rem;
+  line-height: 1.3;
 }
 
 /* PATRICK ABRAMS */
 .patrick {
   background-color: var(--blue-card);
   border-radius: 0.5rem;
-  padding: 1.5rem;
+  padding: 2rem;
   grid-column: span 4;
   grid-row: span 3;
   order: 4;
@@ -183,23 +193,30 @@ div.patrick img {
 }
 
 div.patrick p.testimonials {
-  margin-top: 25px;
+  margin-top: 19px;
+  font-size: 0.89rem;
+  line-height: 1.3;
 }
 
 .kira {
   background-color: var(--white-card);
   border-radius: 0.5rem;
-  padding: 1.5rem;
+  padding: 2rem;
   grid-column: span 2;
   grid-row: span 6;
-  /* order: 2; */
   box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.144);
 }
 
 div.kira img {
-  /* border: 2px solid rgba(255, 255, 255, 0.500); */
+  border: 2px solid rgba(255, 255, 255, 0.500);
   border-radius: 50%;
   height: 35px;
+}
+
+div.kira p.testimonials {
+  margin-top: 19px;
+  font-size: 0.89rem;
+  line-height: 1.35;
 }
 
 /* FOOTER */
