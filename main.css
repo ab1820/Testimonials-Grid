@@ -32,11 +32,12 @@ body {
 
 /* MAIN CONTENT */
 .container {
-  margin: 170px 350px;
+  margin: 140px 370px;
+  margin-bottom: 10px;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  grid-template-rows: repeat(6, 70px);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(5, 80px) 60px;
   grid-gap: 30px;
 }
 
@@ -44,49 +45,63 @@ body {
   color: var(--light-paragraph-header-color);
   opacity: 50%;
   font-size: 13px;
+  margin-left: 50px;
+  margin-top: -20px;
 }
 
 div.jeanette p.verified,
 div.kira p.verified {
   color: var(--dark-paragraph-color);
   opacity: 50%;
-  margin-left: 57px;
-
+  margin-left: 50px;
+  margin-top: -20px;
 }
 
 .testimonials {
   color: var(--light-paragraph-header-color);
   opacity: 70%;
+  margin-top: 15px;
 }
 
 div.jeanette p.testimonials,
 div.kira p.testimonials {
   color: var(--dark-paragraph-color);
   opacity: 50%;
+  margin-top: 27px;
 }
 
 h1 {
   display: inline-block;
   font-size: 15px;
   color: var(--light-paragraph-header-color);
+  margin-left: 11px;
+  vertical-align: top;
+}
+
+h2 {
+  font-size: 1.3rem;
 }
 
 div.jeanette h1,
 div.kira h1 {
   color: var(--grey-card);
-  margin-left: 18px;
+  margin-left: 11px;
+  vertical-align: top;
 }
 
 div.jeanette h2,
 div.kira h2 {
   color: var(--grey-card);
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
+  margin-top: 20px;
+  margin-right: 5px;
 }
 
 .quotes {
   position: absolute;
-  margin-left: 360px;
+  margin-left: 389px;
   margin-top: -32px;
+  height: 80px;
 }
 
 /* DANIEL CLIFFORD */
@@ -104,16 +119,26 @@ div.kira h2 {
   height: 35px;
 }
 
-div.daniel h2 {
+div.daniel h2,
+div.patrick h2,
+div.jonathan h2 {
   position: relative;
   z-index: 3;
+  color: var(--white-card);
+  margin-top: 16px;
+}
+
+div.daniel p.testimonials {
+  margin-top: 15px;
+  font-size: 0.89rem;
+  line-height: 1.3;
 }
 
 /* JONATHaN WALTERS */
 .jonathan {
   background-color: var(--grey-card);
   border-radius: 0.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
   grid-row: span 3;
   grid-column: span 2;
 }
@@ -126,7 +151,7 @@ div.jonathan img {
 
 /* JEANETTE HARMON */
 .jeanette {
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 0.5rem;
   background-color: var(--white-card);
   grid-column: span 2;
@@ -145,7 +170,7 @@ div.jeanette img {
 .patrick {
   background-color: var(--blue-card);
   border-radius: 0.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
   grid-column: span 4;
   grid-row: span 3;
   order: 4;
@@ -157,10 +182,14 @@ div.patrick img {
   height: 35px;
 }
 
+div.patrick p.testimonials {
+  margin-top: 25px;
+}
+
 .kira {
   background-color: var(--white-card);
   border-radius: 0.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
   grid-column: span 2;
   grid-row: span 6;
   /* order: 2; */
@@ -174,8 +203,8 @@ div.kira img {
 }
 
 /* FOOTER */
-.attribution {
+/* .attribution {
   margin: 0 auto;
   margin-top: -50px;
   text-align: center;
-}
+} */
