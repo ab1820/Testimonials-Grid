@@ -219,9 +219,17 @@ div.kira p.testimonials {
   line-height: 1.35;
 }
 
-/* FOOTER */
-/* .attribution {
-  margin: 0 auto;
-  margin-top: -50px;
-  text-align: center;
-} */
+
+@media only screen and (max-width: 1300px) and (min-width: 300px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    margin: 15% 35px;
+  }
+
+  .quotes {
+    margin-left: 150px;
+    height: 100px
+  }
+}
