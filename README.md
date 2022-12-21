@@ -26,11 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Testimonials-Grid](https://user-images.githubusercontent.com/114027684/208971510-b12553b6-f3d9-459f-bf02-e0a4139d47c7.png)
+
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site]([https://your-live-site-url.com](https://ab1820.github.io/Testimonials-Grid/))
 
 ## My process
 
