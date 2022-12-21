@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site]([https://your-live-site-url.com](https://ab1820.github.io/Testimonials-Grid/))
+- Live Site URL: [Live Site](https://ab1820.github.io/Testimonials-Grid/)
 
 ## My process
 
