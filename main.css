@@ -30,10 +30,12 @@ body {
     --dark-header-color:
 }
 
+
+
 /* MAIN CONTENT */
 .container {
-  margin: 140px 370px;
-  margin-bottom: 10px;
+  margin: 110px 440px;
+  /* margin-bottom: 10px; */
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -220,7 +222,7 @@ div.kira p.testimonials {
 }
 
 
-@media only screen and (max-width: 1300px) and (min-width: 300px) {
+@media only screen and (max-width: 800px) and (min-width: 300px) {
   .container {
     display: flex;
     flex-direction: column;
